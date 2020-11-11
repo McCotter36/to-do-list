@@ -1,5 +1,5 @@
 
-/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400); */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
 body {
 font: normal normal 13px/16px "Open Sans", sans-serif;
@@ -8,11 +8,14 @@ background: #dfdfdf;
 
 .container {
 padding: 20px;
-width: 300px;
+width: 250px;
 margin: 0 auto;
 margin-top: 40px;
-background: white;
-border-radius: 5px;}
+background: #000;
+border-radius: 20px;
+color: #fff;
+font-weight: bold;
+ }
 
 form {
 display: inline-block;
@@ -20,43 +23,46 @@ display: inline-block;
 
 input {
 padding: 4px 15px 4px 5px;
-color: black;
+color: white;
+border-radius: 20px;
 }
 
 #button {
 display: inline-block;
-background-color:#fc999b;
-color:#ffffff;
-border-radius: 5px;
+background-color: grey;
+color:#fff;
+border-radius: 20px;
 text-align:center;
 margin-top:2px;
+margin-left: 10px;
 padding: 5px 15px;
 }
 
 #button:hover {
 cursor: pointer;
-opacity: .8;}
+opacity: .7;}
 
 ol {padding-left: 20px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {padding: 5px;color:#fff;}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even){background: #999;}
 
 .strike{text-decoration: line-through;}
 
 li:hover{
   cursor: pointer;
- }
+  font-size-adjust: 200;
+}
 
 .delete {
 	display: none;
 }
 
-li > crossOutButton {
+li > closeButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
-	font-weight: 800;
+	color: #fff;
+	font-weight: 100;
 }
